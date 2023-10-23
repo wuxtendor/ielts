@@ -1,0 +1,143 @@
+@font-face {
+    font-family: "Product Sans Light";
+    src: url('Fonts/ProductSans-Light.ttf');
+}
+
+@font-face {
+    font-family: "Product Sans";
+    src: url('Fonts/ProductSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Product Sans";
+    src: url('Fonts/ProductSans-Regular.ttf');
+}
+
+#signup {
+    width: 550px;
+    height: 400px;
+    margin: 100px auto 50px auto;
+    padding: 20px;
+    position: relative;
+    background: #fff;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    display: block;
+}
+
+#signup h1 {
+    font-family: "Product Sans Light";
+    font-size: 25px;
+    letter-spacing: .25px;
+    text-align: center;
+}
+
+#pass:focus {
+    border-radius: 3px;
+    border-width: 2px;
+    box-shadow: #1a73e8;
+    outline: none;
+    border-color: #1a73e8;
+}
+#pass {
+    margin: 10px;
+    padding: 15px;
+    width: 165px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    float: left;
+    border-width: 2px;
+}
+
+#pass-cnfrm:focus{
+    border-radius: 3px;
+    border-width: 2px;
+    box-shadow: #1a73e8;
+    outline: none;
+    border-color: #1a73e8;
+}
+#pass-cnfrm {
+    margin: 10px;
+    padding: 15px;
+    width: 165px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    border-width: 2px;
+}
+
+#login{
+    margin: 10px;
+    padding: 15px;
+    width: 350px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    float: left;
+    border-width: 2px;
+}
+#login:focus{
+    border-radius: 3px;
+    border-width: 2px;
+    box-shadow: #1a73e8;
+    outline: none;
+    border-color: #1a73e8;
+}
+
+#email {
+    margin: 10px 10px -5px 10px;
+    padding: 15px;
+    width: 350px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    border-width: 2px;
+}
+#email:focus{
+    border-radius: 3px;
+    border-width: 2px;
+    box-shadow: #1a73e8;
+    outline: none;
+    border-color: #1a73e8;
+}
+
+button {
+    font-family: "Product Sans";
+    background-color: #1a73e8;
+    margin: 10px;
+    color: white;
+    border-radius: 3px;
+    border-color: #1a73e8;
+    text-align: center;
+    letter-spacing: .25px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    box-shadow: #1a73e8;
+    border-width: 0;
+    width: 165px;
+    height: 35px;
+    float: left;
+}
+
+button:hover {
+    background: #1a65c8;
+    box-shadow: 0 1px 2px #4482d9;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+#tp {
+    width: 165px;
+    height: 35px;
+    font-size: 16px;
+    font-family: "Product Sans Light";
+    background: white;
+    cursor: pointer;
+    color: #1a65c8;
+    float:left;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}

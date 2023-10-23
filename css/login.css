@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "Product Sans Light";
+    src: url('Fonts/ProductSans-Light.ttf');
+}
+
+@font-face {
+    font-family: "Product Sans";
+    src: url('Fonts/ProductSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Product Sans";
+    src: url('Fonts/ProductSans-Regular.ttf');
+}
+
+div
+{
+    margin-top: 10px;
+}
+#login h1 {
+    font-family: "Product Sans Light";
+    font-size: 25px;
+    letter-spacing: .25px;
+    text-align: center;
+}
+
+#login {
+    width: 450px;
+    height: auto;
+    margin: 100px auto 50px auto;
+    padding: 20px;
+    position: relative;
+    background: #fff;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+}
+
+#login button {
+    font-family: "Product Sans";
+    background-color: #1a73e8;
+    margin: 20px;
+    color: white;
+    border-radius: 3px;
+    border-color: #1a73e8;
+    text-align: center;
+    letter-spacing: .25px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    box-shadow: #1a73e8;
+    border-width: 0;
+    width: 90px;
+    height: 35px;
+    margin-left: 360px;
+}
+
+#login button:hover {
+    background: #1a65c8;
+    box-shadow: 0 1px 2px #4482d9;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+input{
+    margin: 5px 0 0 0;
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#tp {
+    display: block;
+    width: 150px;
+    height: 35px;
+    font-size: 16px;
+    font-family: "Product Sans Light";
+    background: white;
+    cursor: pointer;
+    color: #1a65c8;
+    float:left;
+    padding: 5px;
+}
+
+#google-btn
+{
+    width: 100px;
+    border-width: 3px;
+    margin-left: 170px;
+    border-color: aqua;
+}
+
+#recover
+{
+    margin-left: 40%;
+    width: 100px;
+    height: 15px;
+}
+
+#recover a
+{
+    font-size: 14px;
+}

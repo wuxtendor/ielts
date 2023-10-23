@@ -1,0 +1,18 @@
+#tp {
+    width: 165px;
+    height: 35px;
+    font-size: 16px;
+    background: white;
+    cursor: pointer;
+    color: #1a65c8;
+    float:left;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#login
+{
+	
+}
